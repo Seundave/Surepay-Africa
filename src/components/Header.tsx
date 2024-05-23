@@ -10,7 +10,7 @@ function Header() {
           <Image src={logo} alt="logo" />
         </Link>
 
-        <ul className="flex items-center gap-8">
+        <ul className="flex items-center gap-8 text-[14px]">
           <Link href={"/"}>
             <li>Home</li>
           </Link>
@@ -26,10 +26,10 @@ function Header() {
         </ul>
       </div>
       <div className="">
-        <ul className="flex items-center">
+        <ul className="flex items-center text-[14px]">
           <Link href={"/login"}>Log in</Link>
           <Link href={"/sign-up"}>
-            <button className="py-2 px-5 bg-[#FF7F5C] ml-[20px] text-white rounded">
+            <button className="py-2 px-5 bg-[#FF7F5C] ml-[20px] text-white rounded ">
               Sign up
             </button>
           </Link>

@@ -16,7 +16,7 @@ function Faq() {
           Frequently Asked Questions
         </h4>
       </div>
-      <div className="flex flex-wrap w-full justify-between px-[10px] md:px-[138px] py-[70px]">
+      <div className="flex flex-wrap w-full justify-between px-[10px] md:px-[80px] py-[70px]">
         {faqData.map((item) => (
           <div key={item.id} className={`w-full md:w-[45%] p-4 rounded mb-4`}>
             <div

@@ -4,8 +4,8 @@ import Image from "next/image";
 function Hero() {
   return (
     <div className="px-[80px] relative h-[92vh] bg-[#3345AF] flex justify-center">
-      <div className="md:max-w-[760px] flex flex-col items-center justify-center">
-        <h3 className="text-[60px] text-white font-bold text-center">
+      <div className="md:max-w-[550px] flex flex-col items-center justify-center">
+        <h3 className="text-[38px] text-white font-bold text-center">
           Secure Escrow Payments for Social Commerce in Africa
         </h3>
         <p className="text-white md:max-w-[600px] text-center">
@@ -18,17 +18,14 @@ function Hero() {
         <div className="absolute top-[60%] right-0 transform -translate-y-1/2">
           <Image src={secondImage} alt="second-image" />
         </div>
-        <div className="w-full mt-[20px] p-[12px]">
+        <div className="w-full mt-[20px]">
           <form className="bg-white p-[50px] rounded-md">
             <p className="mb-[5px]">I am</p>
             <div className="border-[1px] border-[#F2F2F2] p-3 rounded-md flex">
               <div className="relative mr-4">
                 <select className="appearance-none outline-none w-full py-2 pr-8 pl-3 rounded-md border border-gray-300">
                   <option value="">Selling</option>
-                  <option value="">Selling</option>
-                  <option value="">Selling</option>
-                  <option value="">Selling</option>
-                  <option value="">Selling</option>
+                  <option value="">Buying</option>
                 </select>
                 <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
                   <svg
@@ -72,7 +69,7 @@ function Hero() {
               <div className="relative mr-4 ">
                 <select className="appearance-none outline-none w-full py-2 pr-8 pl-3 rounded-md border border-gray-300">
                   <option value="">₦</option>
-                  <option value="">₦</option>
+                  <option value="">$</option>
                   <option value="">₦</option>
                   <option value="">₦</option>
                   <option value="">₦</option>
