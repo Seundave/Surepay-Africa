@@ -22,7 +22,7 @@ function Testimonials() {
       </div>
       <div className="md:max-w--1280px] px-[30px] flex justify-between mt-[50px]">
         {data.map((item) => (
-          <div className="w-[30%]">
+          <div className="w-[30%]" key={item.id}>
             <Image src={quote} alt="" />
             <p className="mt-[10px]">{item.testimony}</p>
             <Image src={item.photo} alt="" className="my-[20px]" />

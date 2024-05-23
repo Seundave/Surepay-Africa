@@ -116,7 +116,7 @@ function Hero() {
             </div>
             <button className="flex bg-[#3736A7] rounded-md w-full text-white p-3 justify-center">
               <p className="">Get Started</p>
-              <img src="" alt="" />
+              <Image src="" alt="" />
             </button>
           </form>
         </div>

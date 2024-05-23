@@ -27,7 +27,7 @@ function Features() {
           </div>
           <div className="ml-[30px]">
             {data.map((item) => (
-              <div className="flex flex-col">
+              <div className="flex flex-col" key={item.id}>
                 <p className="font-bold mb-[10px]">{item.title}</p>
                 <p className="mb-[15px]">{item.feature}</p>
               </div>

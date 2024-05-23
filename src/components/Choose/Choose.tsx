@@ -16,7 +16,7 @@ function Choose() {
       <div className="flex justify-between mt-[40px] w-full">
         <div className="w-[50%] pl-[80px] mb-[50px]">
           {data.map((item, index) => (
-            <div className="flex gap-5 items-center">
+            <div className="flex gap-5 items-center" key={item.id}>
               <div className="w-[120px] h-[90px] rounded-[80px] bg-[#312F91] flex justify-center items-center">
                 <p className="text-white text-[48px] font-bold">{index + 1}</p>
               </div>
