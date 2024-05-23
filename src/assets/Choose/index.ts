@@ -1,0 +1,1 @@
+export { default as mockup } from "./3_2 screen mockup.png";
